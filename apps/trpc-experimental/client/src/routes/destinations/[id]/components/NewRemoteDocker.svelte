@@ -96,7 +96,7 @@
 				id="isCoolifyProxyUsed"
 				bind:setting={payload.isCoolifyProxyUsed}
 				on:click={() => (payload.isCoolifyProxyUsed = !payload.isCoolifyProxyUsed)}
-				title="Use Coolify Proxy?"
+				title="Use CoderStudio Proxy?"
 				description={'This will install a proxy on the destination to allow you to access your applications and services without any manual configuration.'}
 			/>
 		</div>

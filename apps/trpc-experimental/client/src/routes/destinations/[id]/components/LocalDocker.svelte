@@ -71,7 +71,7 @@
 				const sure = confirm(
 					`Are you sure you want to ${
 						destination.isCoolifyProxyUsed ? 'disable' : 'enable'
-					} Coolify proxy? It will remove the proxy for all configured networks and all deployments on '${
+					} CoderStudio proxy? It will remove the proxy for all configured networks and all deployments on '${
 						destination.engine
 					}'! Nothing will be reachable if you do it!`
 				);
@@ -102,7 +102,7 @@
 		try {
 			await trpc.destinations.stopProxy.mutate({ id });
 			return addToast({
-				message: 'Coolify proxy stopped.',
+				message: 'CoderStudio proxy stopped.',
 				type: 'success'
 			});
 		} catch (error) {
@@ -113,7 +113,7 @@
 		try {
 			await trpc.destinations.startProxy.mutate({ id });
 			return addToast({
-				message: '	Coolify proxy started.',
+				message: '	CoderStudio proxy started.',
 				type: 'success'
 			});
 		} catch (error) {
@@ -200,10 +200,10 @@
 				disabled={cannotDisable}
 				bind:setting={destination.isCoolifyProxyUsed}
 				on:click={changeProxySetting}
-				title="Use Coolify Proxy?"
+				title="Use CoderStudio Proxy?"
 				description={`This will install a proxy on the destination to allow you to access your applications and services without any manual configuration.${
 					cannotDisable
-						? '<span class="font-bold text-white">You cannot disable this proxy as FQDN is configured for Coolify.</span>'
+						? '<span class="font-bold text-white">You cannot disable this proxy as FQDN is configured for CoderStudio.</span>'
 						: ''
 				}`}
 			/>

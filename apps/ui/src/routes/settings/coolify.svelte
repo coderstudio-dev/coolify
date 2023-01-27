@@ -56,7 +56,7 @@
 
 	async function rollback() {
 		if (rollbackVersion) {
-			const sure = confirm(`Are you sure you want rollback Coolify to ${rollbackVersion}?`);
+			const sure = confirm(`Are you sure you want rollback CoderStudio to ${rollbackVersion}?`);
 			if (sure) {
 				try {
 					loading.rollback = true;
@@ -230,7 +230,7 @@
 	}
 	async function restartCoolify() {
 		const sure = confirm(
-			'Are you sure you would like to restart Coolify? Currently running deployments will be stopped and restarted.'
+			'Are you sure you would like to restart CoderStudio? Currently running deployments will be stopped and restarted.'
 		);
 		if (sure) {
 			loading.restart = true;
@@ -268,7 +268,7 @@
 <div class="mx-auto w-full">
 	<form on:submit|preventDefault={handleSubmit}>
 		<div class="flex flex-row border-b border-coolgray-500 mb-6">
-			<div class="title font-bold pb-3 pr-4">Coolify Settings</div>
+			<div class="title font-bold pb-3 pr-4">CoderStudio Settings</div>
 			<div class="flex flex-row space-x-2">
 				<button
 					class="btn btn-sm btn-primary"
@@ -292,7 +292,7 @@
 				<button
 					on:click={restartCoolify}
 					class:loading={loading.restart}
-					class="btn btn-sm btn-error">Restart Coolify</button
+					class="btn btn-sm btn-error">Restart CoderStudio</button
 				>
 			</div>
 		</div>
@@ -312,7 +312,7 @@
 						name="fqdn"
 						id="fqdn"
 						pattern="^https?://([a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{'{'}2,{'}'}$"
-						placeholder="{$t('forms.eg')}: https://coolify.io"
+						placeholder="{$t('forms.eg')}: https://coderstudio.co"
 					/>
 
 					{#if forceSave}
@@ -377,16 +377,16 @@
 						name="proxyDefaultRedirect"
 						id="proxyDefaultRedirect"
 						pattern="^https?://([a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{'{'}2,{'}'}$"
-						placeholder="{$t('forms.eg')}: https://coolify.io"
+						placeholder="{$t('forms.eg')}: https://coderstudio.co"
 					/>
 				</div>
 
 				<div class="grid grid-cols-4 items-center">
 					<div class="col-span-2">
-						Rollback Coolify to a specific version
+						Rollback CoderStudio to a specific version
 						<Explainer
 							position="dropdown-bottom"
-							explanation="You can rollback to a specific version of Coolify. This will not affect your current running resources.<br><br><a href='https://github.com/coollabsio/coolify/releases' target='_blank'>See available versions</a>"
+							explanation="You can rollback to a specific version of CoderStudio. This will not affect your current running resources.<br><br><a href='https://github.com/coollabsio/coolify/releases' target='_blank'>See available versions</a>"
 						/>
 					</div>
 					<input
@@ -478,7 +478,7 @@
 				<div class="grid grid-cols-2 items-center">
 					<div>
 						Custom DNS servers <Explainer
-							explanation="You can specify a custom DNS server to verify your domains all over Coolify.<br><br>By default, the OS defined DNS servers are used."
+							explanation="You can specify a custom DNS server to verify your domains all over CoderStudio.<br><br>By default, the OS defined DNS servers are used."
 						/>
 					</div>
 
@@ -499,7 +499,7 @@
 						id="isAPIDebuggingEnabled"
 						bind:setting={isAPIDebuggingEnabled}
 						title="API Debugging"
-						description="Enable API debugging. This will log all API requests and responses.<br><br>You need to restart the Coolify for this to take effect."
+						description="Enable API debugging. This will log all API requests and responses.<br><br>You need to restart the CoderStudio for this to take effect."
 						on:click={() => changeSettings('isAPIDebuggingEnabled')}
 					/>
 				</div>
@@ -517,7 +517,7 @@
 						id="doNotTrack"
 						bind:setting={doNotTrack}
 						title="Do Not Track"
-						description="Do not send error reports to Coolify developers or any telemetry."
+						description="Do not send error reports to CoderStudio developers or any telemetry."
 						on:click={() => changeSettings('doNotTrack')}
 					/>
 				</div>

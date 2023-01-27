@@ -123,11 +123,11 @@
 		"warning_database_public": "Votre base de données sera accessible depuis Internet. \n<br>Prenez la sécurité au sérieux dans ce cas!"
 	},
 	"destination": {
-		"add_to_coolify": "Ajouter à Coolify",
+		"add_to_coolify": "Ajouter à CoderStudio",
 		"confirm_restart_proxy": "Voulez-vous vraiment redémarrer le proxy? \nTout sera reconfiguré en ~10 secondes.",
-		"coolify_proxy_restarting": "Redémarrage du Proxy Coolify...",
-		"coolify_proxy_started": "Proxy Coolify démarré!",
-		"coolify_proxy_stopped": "Proxy Coolify arrêté!",
+		"coolify_proxy_restarting": "Redémarrage du Proxy CoderStudio...",
+		"coolify_proxy_started": "Proxy CoderStudio démarré!",
+		"coolify_proxy_stopped": "Proxy CoderStudio arrêté!",
 		"delete_destination": "Supprimer le destinataire",
 		"force_restart_proxy": "Forcer le redémarrage du proxy",
 		"new": {
@@ -140,7 +140,7 @@
 		"no_destination_found": "Aucune destination trouvée",
 		"permission_denied_delete_destination": "Vous n'êtes pas autorisé à supprimer cette destination",
 		"restarting_please_wait": "Redémarrage... veuillez patienter...",
-		"use_coolify_proxy": "Utiliser le Proxy Coolify ?"
+		"use_coolify_proxy": "Utiliser le Proxy CoderStudio ?"
 	},
 	"error": {
 		"here": "ici",
@@ -236,7 +236,7 @@
 		"login": "Connexion"
 	},
 	"register": {
-		"first_user": "Vous enregistrez le premier utilisateur. \nCe sera l'administrateur de votre instance Coolify.",
+		"first_user": "Vous enregistrez le premier utilisateur. \nCe sera l'administrateur de votre instance CoderStudio.",
 		"register": "S'inscrire"
 	},
 	"reset": {
@@ -259,14 +259,14 @@
 		"generate_www_non_www_ssl": "Il générera des certificats pour www et non-www. \n<br>Vous devez avoir <span class='font-bold text-pink-600'>les deux entrées DNS</span> définies à l'avance.<br><br>Le service devra être redémarré."
 	},
 	"setting": {
-		"coolify_proxy_settings": "Paramètres du proxy Coolify",
+		"coolify_proxy_settings": "Paramètres du proxy CoderStudio",
 		"credential_stat_explainer": "Identifiants pour la page <a class=\"text-white font-bold\" href=\"{{link}}\" target=\"_blank\">statistiques</a>.",
 		"domain_removed": "Domaine supprimé",
 		"must_remove_domain_before_changing": "Vous devez supprimer le domaine avant de pouvoir modifier ce paramètre.",
 		"permission_denied": "Vous n'avez pas la permission de faire cela. \n\\nDemandez à un administrateur de modifier vos autorisations.",
 		"registration_allowed": "Inscription autorisée ?",
 		"registration_allowed_explainer": "Autoriser d'autres inscriptions à l'application. \n<br>Il est désactivé après la première inscription.",
-		"ssl_explainer": "Si vous spécifiez <span class='text-settings font-bold'>https</span>, Coolify sera accessible uniquement via https. \nUn certificat SSL sera généré pour vous.<br>Si vous spécifiez <span class='text-settings font-bold'>www</span>, Coolify sera redirigé (302) à partir de non-www et vice versa."
+		"ssl_explainer": "Si vous spécifiez <span class='text-settings font-bold'>https</span>, CoderStudio sera accessible uniquement via https. \nUn certificat SSL sera généré pour vous.<br>Si vous spécifiez <span class='text-settings font-bold'>www</span>, CoderStudio sera redirigé (302) à partir de non-www et vice versa."
 	},
 	"source": {
 		"application_id": "ID d'application",
@@ -316,7 +316,7 @@
 		"read": "Lire",
 		"revoke_invitation": "Révoquer l'invitation",
 		"root": "(suprême)",
-		"root_team_explainer": "Il s'agit de l'équipe <span class='text-red-500 font-bold'>suprême</span>. \nCela signifie que les membres de ce groupe peuvent gérer les paramètres à l'échelle de l'instance et avoir tous les privilèges dans Coolify (imaginez comme un utilisateur root sous Linux).",
+		"root_team_explainer": "Il s'agit de l'équipe <span class='text-red-500 font-bold'>suprême</span>. \nCela signifie que les membres de ce groupe peuvent gérer les paramètres à l'échelle de l'instance et avoir tous les privilèges dans CoderStudio (imaginez comme un utilisateur root sous Linux).",
 		"send_invitation": "Envoyer une invitation",
 		"you": "Toi"
 	}

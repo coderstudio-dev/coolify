@@ -201,7 +201,7 @@ export async function restartCoolify(request: FastifyRequest<any>) {
 		}
 		throw {
 			status: 500,
-			message: 'You are not authorized to restart Coolify.'
+			message: 'You are not authorized to restart CoderStudio.'
 		};
 	} catch ({ status, message }) {
 		return errorHandler({ status, message });

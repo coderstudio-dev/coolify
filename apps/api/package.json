@@ -1,6 +1,6 @@
 {
 	"name": "api",
-	"description": "Coolify's Fastify API",
+	"description": "CoderStudio's Fastify API",
 	"license": "Apache-2.0",
 	"scripts": {
 		"db:generate": "prisma generate",

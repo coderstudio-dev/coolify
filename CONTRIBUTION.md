@@ -23,7 +23,7 @@ You'll need a set of skills to [get started](docs/contribution/GettingStarted.md
 - [Setup Docker Compose Plugin](https://docs.docker.com/compose/install/compose-plugin/)
 - [Setup GIT LFS Support](https://git-lfs.github.com/)
 
-## 3) Setup Coolify
+## 3) Setup CoderStudio
 
 - Copy `apps/api/.env.example` to `apps/api/.env` 
 - Edit `apps/api/.env`, set the `COOLIFY_APP_ID` environment variable to something cool.

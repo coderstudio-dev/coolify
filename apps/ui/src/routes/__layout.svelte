@@ -144,10 +144,10 @@
 
 <svelte:head>
 	{#if !$appSession.whiteLabeled}
-		<title>Coolify</title>
+		<title>CoderStudio</title>
 		<link rel="icon" href="/favicon.png" />
 	{:else if $appSession.whiteLabeledDetails.icon}
-		<title>Coolify</title>
+		<title>CoderStudio</title>
 		<link rel="icon" href={$appSession.whiteLabeledDetails.icon} />
 	{/if}
 </svelte:head>
@@ -172,8 +172,8 @@
 			<nav class="nav-main hidden lg:block z-20">
 				<div class="flex h-screen w-full flex-col items-center transition-all duration-100">
 					{#if !$appSession.whiteLabeled}
-						<div class="mb-2 mt-4 h-10 w-10">
-							<img src="/favicon.png" alt="coolLabs logo" />
+						<div class="ml-2 mb-2 mt-4 h-10 w-10">
+							<img src="/favicon.png" alt="CoderStudio logo" />
 						</div>
 					{:else if $appSession.whiteLabeledDetails.icon}
 						<div class="mb-2 mt-4 h-10 w-10">
@@ -354,7 +354,7 @@
 			</nav>
 			{#if $appSession.whiteLabeled}
 				<span class="fixed bottom-0 left-[50px] z-50 m-2 px-4 text-xs text-stone-700"
-					>Powered by <a href="https://coolify.io" target="_blank noreferrer">Coolify</a></span
+					>Powered by <a href="https://coolify.io" target="_blank noreferrer">CoderStudio</a></span
 				>
 			{/if}
 		{/if}
@@ -370,7 +370,7 @@
 				</label>
 				<div class="prose flex flex-row justify-between space-x-1 w-full items-center pr-3">
 					{#if !$appSession.whiteLabeled}
-						<h3 class="mb-0 text-white">Coolify</h3>
+						<h3 class="mb-0 text-white">CoderStudio</h3>
 					{/if}
 				</div>
 			</div>

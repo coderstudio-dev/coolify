@@ -3073,7 +3073,7 @@
       label: Database Host
       defaultValue: ""
       description: ""
-      placeholder: "db.coollabs.io"
+      placeholder: "db.coderstudio.co"
       required: true
     - id: $$config_wordpress_db_port
       name: WORDPRESS_DB_PORT

@@ -1,6 +1,6 @@
 ### Local Machine
 
-At the moment, Coolify `doesn't support Windows`. 
+At the moment, CoderStudio `doesn't support Windows`. 
 
 You must use `Linux` or `MacOS` or consider using Gitpod or Github Codespaces.
 

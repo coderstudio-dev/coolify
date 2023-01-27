@@ -701,7 +701,7 @@
 								class:border-red-500={!application.settings?.isBot && !application.fqdn}
 								bind:value={application.fqdn}
 								pattern="^https?://([a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{'{'}2,{'}'}$"
-								placeholder="eg: https://coollabs.io"
+								placeholder="eg: http://*.demo.coderstudio.co"
 							/>
 							{#if forceSave}
 								<div class="flex-col space-y-2 pt-4 text-center">
@@ -1227,7 +1227,7 @@
 									id="fqdn"
 									bind:value={dockerComposeConfiguration[service.name].fqdn}
 									pattern="^https?://([a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{'{'}2,{'}'}$"
-									placeholder="eg: https://coollabs.io"
+									placeholder="eg: http://*.demo.coderstudio.co"
 								/>
 							</div>
 						</div>

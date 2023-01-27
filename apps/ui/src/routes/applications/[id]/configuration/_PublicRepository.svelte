@@ -168,7 +168,7 @@
 		<div class="flex flex-col space-y-2 w-full">
 			<div class="flex flex-row space-x-2"><input
 				class="w-full"
-				placeholder="eg: https://github.com/coollabsio/nodejs-example/tree/main"
+				placeholder="eg: https://github.com/coderstudio-dev/getting-started-nodejs"
 				bind:value={publicRepositoryLink}
 			/>
 				<button class="btn btn-primary" disabled={loading.branches} type="submit" class:loading={loading.branches}>

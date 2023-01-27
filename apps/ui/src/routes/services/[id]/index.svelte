@@ -330,7 +330,7 @@
 					<Explainer explanation={$t('application.https_explainer')} />
 				</label>
 				<CopyPasswordField
-					placeholder="eg: https://coollabs.io"
+					placeholder="eg: http://*.demo.coderstudio.co"
 					readonly={isDisabled}
 					disabled={isDisabled}
 					name="fqdn"
@@ -345,7 +345,7 @@
 					<div class="grid grid-cols-2 items-center py-1">
 						<label for={fqdn.name}>{fqdn.label || fqdn.name}</label>
 						<CopyPasswordField
-							placeholder="eg: https://coolify.io"
+							placeholder="eg: https://coderstudio.co"
 							readonly={isDisabled}
 							disabled={isDisabled}
 							required={fqdn.required}
@@ -416,7 +416,7 @@
 						name="exposePort"
 						id="exposePort"
 						bind:value={service.exposePort}
-						placeholder="12345"
+						placeholder="32000"
 					/>
 				</div>
 			{/if}

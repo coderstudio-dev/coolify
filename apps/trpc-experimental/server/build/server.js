@@ -78,7 +78,7 @@ function createServer(opts) {
   const start = async () => {
     try {
       await server.listen({ host: "0.0.0.0", port });
-      console.log("Coolify server is listening on port", port, "at 0.0.0.0 \u{1F680}");
+      console.log("CoderStudio server is listening on port", port, "at 0.0.0.0 \u{1F680}");
       const graceful = new import_graceful.default({ brees: [import_scheduler.scheduler] });
       graceful.listen();
       setInterval(async () => {

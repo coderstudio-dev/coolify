@@ -177,7 +177,7 @@
 	<input type="checkbox" id="my-modal" class="modal-toggle" />
 	<div class="modal modal-bottom sm:modal-middle">
 		<div class="modal-box rounded bg-coolgray-300">
-			<h3 class="font-bold text-lg">Add a Docker Registry to Coolify</h3>
+			<h3 class="font-bold text-lg">Add a Docker Registry to CoderStudio</h3>
 			<div>
 				<form on:submit|preventDefault={handleSubmit}>
 					<label for="name" class="label">

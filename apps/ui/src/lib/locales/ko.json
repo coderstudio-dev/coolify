@@ -95,7 +95,7 @@
   "register":{
     "register":"등록하다",
     "registering":"등록 중...",
-    "first_user":"첫 번째 사용자를 등록하고 있습니다. Coolify 인스턴스의 관리자가 됩니다."
+    "first_user":"첫 번째 사용자를 등록하고 있습니다. CoderStudio 인스턴스의 관리자가 됩니다."
   },
   "reset":{
     "reset_password":"초기화",
@@ -240,13 +240,13 @@
     "delete_destination":"삭제",
     "permission_denied_delete_destination":"이 목적지를 삭제할 권한이 없습니다.",
     "add_to_coolify":"Coolify에 추가",
-    "coolify_proxy_stopped":"Coolify 프록시가 중지되었습니다!",
-    "coolify_proxy_started":"Coolify 프록시가 시작되었습니다!",
+    "coolify_proxy_stopped":"CoderStudio 프록시가 중지되었습니다!",
+    "coolify_proxy_started":"CoderStudio 프록시가 시작되었습니다!",
     "confirm_restart_proxy":"프록시를 다시 시작하시겠습니까? 모든 것이 ~10초 안에 재구성됩니다.",
-    "coolify_proxy_restarting":"Coolify 프록시 다시 시작 중...",
+    "coolify_proxy_restarting":"CoderStudio 프록시 다시 시작 중...",
     "restarting_please_wait":"다시 시작 중입니다... 잠시만 기다려 주십시오...",
     "force_restart_proxy":"강제 재시작 프록시",
-    "use_coolify_proxy":"Coolify 프록시를 사용하시겠습니까?",
+    "use_coolify_proxy":"CoderStudio 프록시를 사용하시겠습니까?",
     "no_destination_found":"목적지를 찾을 수 없습니다",
     "new_error_network_already_exists":"다른 팀에 대해 네트워크 {{network}}이(가) 이미 구성되었습니다!",
     "new":{
@@ -310,7 +310,7 @@
     "must_remove_domain_before_changing":"이 설정을 변경하려면 먼저 도메인을 제거해야 합니다.",
     "registration_allowed":"등록이 허용됩니까?",
     "registration_allowed_explainer":"애플리케이션에 대한 추가 등록을 허용합니다. <br>최초 등록 후에는 꺼져 있습니다.",
-    "coolify_proxy_settings":"Coolify 프록시 설정",
+    "coolify_proxy_settings":"CoderStudio 프록시 설정",
     "credential_stat_explainer":"<a class=\"text-white \" href=\"{{link}}\" target=\"_blank\">통계</a> 페이지에 대한 자격 증명입니다.",
     "auto_update_enabled":"자동 업데이트가 활성화되었습니까?",
     "auto_update_enabled_explainer":"Coolify에 대한 자동 업데이트를 활성화합니다. 실행 중인 빌드 프로세스가 없는 경우 배후에서 자동으로 수행됩니다.",

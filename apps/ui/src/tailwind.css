@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 @font-face {
-	font-family: 'Poppins';
+	font-family: 'Work Sans';
 	font-style: normal;
 	font-weight: 400;
 	src: local(''), url('/poppins-v19-latin-ext_latin_devanagari-regular.woff2') format('woff2'),
 		url('/poppins-v19-latin-ext_latin_devanagari-regular.woff') format('woff');
 }
 @font-face {
-	font-family: 'Poppins';
+	font-family: 'Work Sans';
 	font-style: normal;
 	font-weight: 500;
 	src: local(''), url('/poppins-v19-latin-ext_latin_devanagari-500.woff2') format('woff2'),
@@ -166,9 +166,7 @@ a {
 	);
 	border-image: linear-gradient(
 		0.25turn,
-		rgba(255, 249, 34),
-		rgba(255, 0, 128),
-		rgba(56, 2, 155, 0)
+		rgba(92,209,252,1) 0%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%
 	);
 	border-image-slice: 1;
 }

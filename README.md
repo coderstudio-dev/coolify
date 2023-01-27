@@ -1,4 +1,4 @@
-# Coolify
+# CoderStudio
 
 An open-source & self-hostable Heroku / Netlify alternative.
 
@@ -108,10 +108,10 @@ Deploy your resource to:
 
 ## ⚗️ Expertise Contributions
 
-Coolify is developed under the [Apache License](./LICENSE) and you can help to make it grow.
+CoderStudio is developed under the [Apache License](./LICENSE) and you can help to make it grow.
 Our community will be glad to have you on board!
 
-Learn how to contribute to Coolify as as ...
+Learn how to contribute to CoderStudio as as ...
 
 &rarr; [👩🏾‍💻 Software developer](./CONTRIBUTION.md)
 

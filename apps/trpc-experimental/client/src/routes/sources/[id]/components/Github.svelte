@@ -158,7 +158,7 @@
 					bind:setting={source.isSystemWide}
 					on:click={() => changeSettings('isSystemWide', false)}
 					title="System Wide Git"
-					description="System Wide Git are available to all the users in your Coolify instance. <br><br> <span class='font-bold text-warning'>Use with caution, as it can be a security risk.</span>"
+					description="System Wide Git are available to all the users in your CoderStudio instance. <br><br> <span class='font-bold text-warning'>Use with caution, as it can be a security risk.</span>"
 				/>
 			</div>
 		</form>
@@ -245,7 +245,7 @@
 						bind:setting={source.isSystemWide}
 						on:click={() => changeSettings('isSystemWide', true)}
 						title="System Wide Git Source"
-						description="System Wide Git Sources are available to all the users in your Coolify instance. <br><br> <span class='font-bold text-warning'>Use with caution, as it can be a security risk.</span>"
+						description="System Wide Git Sources are available to all the users in your CoderStudio instance. <br><br> <span class='font-bold text-warning'>Use with caution, as it can be a security risk.</span>"
 					/>
 				{/if}
 			</div>

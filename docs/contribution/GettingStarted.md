@@ -1,6 +1,6 @@
 ## Getting Started
 
-To contribute to `Coolify` development, you'll benefit from knowing the following:
+To contribute to `CoderStudio` development, you'll benefit from knowing the following:
 
 - **Languages**
   - [Node.js]() - 📚 [Introduction](https://nodejs.dev/en/learn/introduction-to-nodejs/)

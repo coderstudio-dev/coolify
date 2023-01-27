@@ -95,7 +95,7 @@
   "register":{
     "register":"Registro",
     "registering":"Registro.",
-    "first_user":"Está registrando al primer usuario. Será el administrador de tu instancia de Coolify."
+    "first_user":"Está registrando al primer usuario. Será el administrador de tu instancia de CoderStudio."
   },
   "reset":{
     "reset_password":"Reset",
@@ -239,14 +239,14 @@
   "destination":{
     "delete_destination":"Suprimir",
     "permission_denied_delete_destination":"Usted no tiene permiso para eliminar este destino",
-    "add_to_coolify":"Añadir a Coolify",
-    "coolify_proxy_stopped":"Coolify Proxy paró!",
-    "coolify_proxy_started":"Coolify Proxy comenzó!",
+    "add_to_coolify":"Añadir a CoderStudio",
+    "coolify_proxy_stopped":"CoderStudio Proxy paró!",
+    "coolify_proxy_started":"CoderStudio Proxy comenzó!",
     "confirm_restart_proxy":"¿Seguro que quieres reiniciar el proxy? Todo será reconfigurado en ~10 segundos.",
     "coolify_proxy_restarting":"Enfríe el reinicio de Proxy.",
     "restarting_please_wait":"Reiniciando. Por favor, espere.",
     "force_restart_proxy":"Fuerza restart proxy",
-    "use_coolify_proxy":"¿Uso Coolify Proxy?",
+    "use_coolify_proxy":"¿Uso CoderStudio Proxy?",
     "no_destination_found":"No hay destino encontrado",
     "new_error_network_already_exists":"Red {{network}} ya configurado para otro equipo!",
     "new":{
@@ -306,7 +306,7 @@
     "change_language":"Cambiar idioma",
     "permission_denied":"No tienes permiso para hacer esto. \\nAsk un administrador para modificar sus permisos.",
     "domain_removed":"El dominio eliminado",
-    "ssl_explainer":"Si especificas יspan class='text-settings' confianzahttps realizadas/span, Coolify será accesible sólo en https. Certificado SSL se generará para usted.Se indicará que si especificas <span class='text-settings 'www identificado/span, Coolify será redireccionado (302) de no-www y viceversa. Si cambia un dominio ya establecido, romperá webhooks y otras integraciones! Necesita actualizarlos manualmente.",
+    "ssl_explainer":"Si especificas יspan class='text-settings' confianzahttps realizadas/span, CoderStudio será accesible sólo en https. Certificado SSL se generará para usted.Se indicará que si especificas <span class='text-settings 'www identificado/span, CoderStudio será redireccionado (302) de no-www y viceversa. Si cambia un dominio ya establecido, romperá webhooks y otras integraciones! Necesita actualizarlos manualmente.",
     "must_remove_domain_before_changing":"Debe eliminar el dominio antes de que pueda cambiar esta configuración.",
     "registration_allowed":"¿Se permite la inscripción?",
     "registration_allowed_explainer":"Permitir nuevos registros a la solicitud. Se ha apagado después del primer registro.",
@@ -316,7 +316,7 @@
     "auto_update_enabled_explainer":"Activar actualizaciones automáticas para enfriar. Se hará automáticamente detrás de las escenas, si no hay proceso de construcción funcionando.",
     "generate_www_non_www_ssl":"Generará certificados tanto para www como para no www. Necesitas tener las entradas de la clase='' texto-settings' inteligenteboth DNS seleccionadas/span titulada con antelación.",
     "is_dns_check_enabled":"¿El cheque DNS está habilitado?",
-    "is_dns_check_enabled_explainer":"Puede deshabilitar el cheque DNS antes de crear certificados SSL.Seguido se indica que el ajuste es útil cuando Coolify está detrás de un proxy o túnel inverso."
+    "is_dns_check_enabled_explainer":"Puede deshabilitar el cheque DNS antes de crear certificados SSL.Seguido se indica que el ajuste es útil cuando CoderStudio está detrás de un proxy o túnel inverso."
   },
   "team":{
     "pending_invitations":"Invitaciones pendientes",
@@ -326,7 +326,7 @@
     "root":"(root)",
     "invited_with_permissions":"Invitado a las \"clase de texto\"(s)(s)(s)(s)(s)(s)(s)(s)(s)(s)(s))(s))(s))(sp))(sp.",
     "members":"Miembros",
-    "root_team_explainer":"Este es el equipo de la clase de la clase 0'text-red-500 'raíz seleccionada/span. Esto significa que los miembros de este grupo pueden gestionar la configuración de instancia amplia y tener todos los priviliges en Coolify (imagina como usuario raíz en Linux.)",
+    "root_team_explainer":"Este es el equipo de la clase de la clase 0'text-red-500 'raíz seleccionada/span. Esto significa que los miembros de este grupo pueden gestionar la configuración de instancia amplia y tener todos los priviliges en CoderStudio (imagina como usuario raíz en Linux.)",
     "permission":"Permiso",
     "you":"Tú",
     "promote_to":"Promover a {{grade}}",

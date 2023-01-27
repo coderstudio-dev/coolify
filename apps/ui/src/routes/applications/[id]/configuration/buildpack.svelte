@@ -353,7 +353,7 @@
 		</div>
 	</div>
 	<div class="max-w-screen-2xl mx-auto px-10">
-		<div class="title pb-2">Coolify Base</div>
+		<div class="title pb-2">CoderStudio Base</div>
 		<div class="flex flex-wrap justify-center">
 			{#each buildPacks.filter((bp) => bp.isCoolifyBuildPack === true && bp.type === 'base') as buildPack}
 				<div class="p-2">
@@ -371,7 +371,7 @@
 		</div>
 	</div>
 	<div class="max-w-screen-2xl mx-auto px-10">
-		<div class="title pb-2">Coolify Specific</div>
+		<div class="title pb-2">CoderStudio Specific</div>
 		<div class="flex flex-wrap justify-center">
 			{#each buildPacks.filter((bp) => bp.isCoolifyBuildPack === true && bp.type === 'specific') as buildPack}
 				<div class="p-2">

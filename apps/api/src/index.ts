@@ -146,7 +146,7 @@ const host = '0.0.0.0';
 	try {
 		await fastify.listen({ port, host });
 		await socketIOServer(fastify);
-		console.log(`Coolify's API is listening on ${host}:${port}`);
+		console.log(`CoderStudio's API is listening on ${host}:${port}`);
 
 		migrateServicesToNewTemplate();
 		await migrateApplicationPersistentStorage();
@@ -171,7 +171,7 @@ const host = '0.0.0.0';
 			await cleanupStorage();
 		}, 60000 * 15);
 
-		// Cleanup stucked containers (not defined in Coolify, but still running and managed by Coolify)
+		// Cleanup stucked containers (not defined in CoderStudio, but still running and managed by CoderStudio)
 		setInterval(async () => {
 			await cleanupStuckedContainers();
 		}, 60000);
@@ -450,7 +450,7 @@ async function checkProxies() {
 
 		const { arch, ipv4, ipv6 } = await listSettings();
 
-		// Coolify Proxy local
+		// CoderStudio Proxy local
 		const engine = '/var/run/docker.sock';
 		const localDocker = await prisma.destinationDocker.findFirst({
 			where: { engine, network: 'coolify', isCoolifyProxyUsed: true }
@@ -461,7 +461,7 @@ async function checkProxies() {
 				await startTraefikProxy(localDocker.id);
 			}
 		}
-		// Coolify Proxy remote
+		// CoderStudio Proxy remote
 		const remoteDocker = await prisma.destinationDocker.findMany({
 			where: { remoteEngine: true, remoteVerified: true }
 		});

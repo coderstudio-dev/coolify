@@ -47,8 +47,8 @@
 
 <div class="flex lg:flex-row flex-col h-screen">
 	<div class="bg-neutral-focus h-screen lg:flex hidden flex-col justify-end p-20 flex-1">
-		<h1 class="title lg:text-6xl mb-5 border-gradient">Coolify</h1>
-		<h3 class="title">Made self-hosting simple.</h3>
+		<h1 class="title lg:text-6xl mb-5 border-gradient">CoderStudio</h1>
+		<h3 class="title">Self-service deployment made easy. Powered by <a href="https://coolify.io/" target="_blank" rel="noreferrer">Coolify</a>.</h3>
 	</div>
 	<div class="flex flex-1 flex-col lg:max-w-2xl">
 		<div class="flex flex-row p-8 items-center space-x-3">
@@ -56,17 +56,17 @@
 				<div class="avatar" style="width: 40px; height: 40px">
 					<img
 						src={$appSession.whiteLabeledDetails.icon}
-						alt="Icon for white labeled version of Coolify"
+						alt="Icon for white labeled version of CoderStudio"
 					/>
 				</div>
 			{:else}
 				<div>
 					<div class="avatar" style="width: 40px; height: 40px">
-						<img src="favicon.png" alt="Coolify icon" />
+						<img src="favicon.png" alt="CoderStudio icon" />
 					</div>
 				</div>
 				<div class="prose">
-					<h4>Coolify</h4>
+					<h4>CoderStudio</h4>
 				</div>
 			{/if}
 		</div>

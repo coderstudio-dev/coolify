@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   coolify:
-    image: coollabsio/coolify:${TAG:-latest}
+    image: rcdelacruz/coolify:${TAG:-latest}
     restart: always
     container_name: coolify
     ports:
@@ -19,7 +19,7 @@ services:
       - 'coolify-letsencrypt:/etc/letsencrypt'
       - '/var/run/docker.sock:/var/run/docker.sock'
     env_file:
-      - '.env'
+      - '/workspaces/coolify/apps/api/.env'
     networks:
       - coolify-infra
   fluent-bit:

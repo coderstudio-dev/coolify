@@ -95,7 +95,7 @@
   "register":{
     "register":"Registro",
     "registering":"Registrando...",
-    "first_user":"Você está registrando o primeiro usuário. Será o administrador da sua instância Coolify."
+    "first_user":"Você está registrando o primeiro usuário. Será o administrador da sua instância CoderStudio."
   },
   "reset":{
     "reset_password":"Redefinir",
@@ -239,14 +239,14 @@
   "destination":{
     "delete_destination":"Excluir",
     "permission_denied_delete_destination":"Você não tem permissão para excluir este destino",
-    "add_to_coolify":"Adicionar ao Coolify",
-    "coolify_proxy_stopped":"Coolify Proxy parou!",
-    "coolify_proxy_started":"Coolify Proxy iniciado!",
+    "add_to_coolify":"Adicionar ao CoderStudio",
+    "coolify_proxy_stopped":"CoderStudio Proxy parou!",
+    "coolify_proxy_started":"CoderStudio Proxy iniciado!",
     "confirm_restart_proxy":"Tem certeza de que deseja reiniciar o proxy? Tudo será reconfigurado em ~10 segundos.",
-    "coolify_proxy_restarting":"Coolify Proxy reiniciando...",
+    "coolify_proxy_restarting":"CoderStudio Proxy reiniciando...",
     "restarting_please_wait":"Reiniciando... aguarde...",
     "force_restart_proxy":"Forçar reinicialização do proxy",
-    "use_coolify_proxy":"Usar Coolify Proxy?",
+    "use_coolify_proxy":"Usar CoderStudio Proxy?",
     "no_destination_found":"Nenhum destino encontrado",
     "new_error_network_already_exists":"Rede {{network}} já configurada para outra equipe!",
     "new":{
@@ -306,17 +306,17 @@
     "change_language":"Mudar idioma",
     "permission_denied":"Você não tem permissão para fazer isso. \\nPeça a um administrador para modificar suas permissões.",
     "domain_removed":"Domínio removido",
-    "ssl_explainer":"Se você especificar <span class='text-settings'>https</span>, o Coolify será acessível apenas por https. O certificado SSL será gerado para você.<br>Se você especificar <span class='text-settings '>www</span>, Coolify será redirecionado (302) de não www e vice-versa.<br><br ><span class='text-settings '>AVISO:</span> Se você alterar um domínio já definido, isso interromperá webhooks e outras integrações! Você precisa atualizá-los manualmente.",
+    "ssl_explainer":"Se você especificar <span class='text-settings'>https</span>, o CoderStudio será acessível apenas por https. O certificado SSL será gerado para você.<br>Se você especificar <span class='text-settings '>www</span>, CoderStudio será redirecionado (302) de não www e vice-versa.<br><br ><span class='text-settings '>AVISO:</span> Se você alterar um domínio já definido, isso interromperá webhooks e outras integrações! Você precisa atualizá-los manualmente.",
     "must_remove_domain_before_changing":"Deve remover o domínio antes de alterar esta configuração.",
     "registration_allowed":"Registro permitido?",
     "registration_allowed_explainer":"Permitir mais registros no aplicativo. <br>É desligado após o primeiro registro.",
-    "coolify_proxy_settings":"Configurações de proxy do Coolify",
+    "coolify_proxy_settings":"Configurações de proxy do CoderStudio",
     "credential_stat_explainer":"Credenciais para a página de <a class=\"text-white \" href=\"{{link}}\" target=\"_blank\">estatísticas</a>.",
     "auto_update_enabled":"Atualização automática habilitada?",
-    "auto_update_enabled_explainer":"Habilite atualizações automáticas para Coolify. Isso será feito automaticamente nos bastidores, se não houver nenhum processo de compilação em execução.",
+    "auto_update_enabled_explainer":"Habilite atualizações automáticas para CoderStudio. Isso será feito automaticamente nos bastidores, se não houver nenhum processo de compilação em execução.",
     "generate_www_non_www_ssl":"Ele irá gerar certificados para www e não www. <br>Você precisa ter <span class=' text-settings'>ambas as entradas de DNS</span> configuradas antecipadamente.",
     "is_dns_check_enabled":"Verificação de DNS habilitada?",
-    "is_dns_check_enabled_explainer":"Você pode desabilitar a verificação de DNS antes de criar certificados SSL.<br><br>Desligá-la é útil quando o Coolify está atrás de um proxy reverso ou túnel."
+    "is_dns_check_enabled_explainer":"Você pode desabilitar a verificação de DNS antes de criar certificados SSL.<br><br>Desligá-la é útil quando o CoderStudio está atrás de um proxy reverso ou túnel."
   },
   "team":{
     "pending_invitations":"Convites pendentes",
@@ -326,7 +326,7 @@
     "root":"(raiz)",
     "invited_with_permissions":"Convidado para <span class=\" text-settings\">{{teamName}}</span> com permissão <span class=\" text-rose-600\">{{permission}}</span>.",
     "members":"Membros",
-    "root_team_explainer":"Esta é a equipe <span class='text-red-500 '>raiz</span>. Isso significa que os membros deste grupo podem gerenciar as configurações de toda a instância e ter todos os privilégios no Coolify (imagine como usuário root no Linux).",
+    "root_team_explainer":"Esta é a equipe <span class='text-red-500 '>raiz</span>. Isso significa que os membros deste grupo podem gerenciar as configurações de toda a instância e ter todos os privilégios no CoderStudio (imagine como usuário root no Linux).",
     "permission":"Permissão",
     "you":"Você",
     "promote_to":"Promover para {{grade}}",

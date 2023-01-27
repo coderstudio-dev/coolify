@@ -201,7 +201,7 @@ export async function gitHubEvents(request: FastifyRequest<GitHubEvents>): Promi
                                 }
                             }
                             // if (application.connectedDatabase && pullmergeRequestAction === 'opened' || pullmergeRequestAction === 'reopened') {
-                            //     // Coolify hosted database
+                            //     // CoderStudio hosted database
                             //     if (application.connectedDatabase.databaseId) {
                             //         const databaseId = application.connectedDatabase.databaseId;
                             //         const database = await prisma.database.findUnique({ where: { id: databaseId } });

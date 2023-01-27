@@ -333,7 +333,7 @@
 					<div class="grid grid-cols-2 items-center py-1">
 						<label for={fqdn.name}>{fqdn.label || fqdn.name}</label>
 						<CopyPasswordField
-							placeholder="eg: https://coolify.io"
+							placeholder="eg: http://coderstudio.co"
 							readonly={isDisabled}
 							disabled={isDisabled}
 							required={fqdn.required}
