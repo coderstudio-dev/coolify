@@ -40,7 +40,8 @@ export async function startService(request: FastifyRequest<ServiceStartStop>, fa
         const { id } = request.params;
         const teamId = request.user.teamId;
         const service = await getServiceFromDB({ id, teamId });
-        const arm = isARM(service.arch);
+        /* FIX: fix value mapping from service.arch -> service.settings.arch */
+        const arm = isARM(service.settings.arch);
         const { type, destinationDockerId, destinationDocker, persistentStorage, exposePort } =
             service;
 
